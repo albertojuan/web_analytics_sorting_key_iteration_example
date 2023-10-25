@@ -14,7 +14,7 @@
           - master
     jobs:
       cd:  # deploy changes to workspace 'wa_analytics_sk'
-        uses: tinybirdco/ci/.github/workflows/cd.yml@v2.2.0
+        uses: tinybirdco/ci/.github/workflows/cd.yml@main
         with:
           tb_deploy: false
           data_project_dir: .

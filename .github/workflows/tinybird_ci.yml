@@ -18,7 +18,7 @@
 
     jobs:
         ci: # ci using environments from workspace 'wa_analytics_sk'
-          uses: tinybirdco/ci/.github/workflows/ci.yml@v2.2.0
+          uses: tinybirdco/ci/.github/workflows/ci.yml@main
           with:
             data_project_dir: .
           secrets:
